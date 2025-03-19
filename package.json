@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "prepare": "husky install"
+    },
+    "lint-staged":{
+        "**/*.{js,ts,vue}":[
+            "eslint --fix",
+            "prettier --write"
+        ]
+    }
+}
